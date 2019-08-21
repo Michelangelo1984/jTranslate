@@ -1,0 +1,8 @@
+{
+  "languages": ["en", "nl", "it"],
+  "title": {
+    "en": "hello world",
+    "nl": "hallo wereld!",
+    "it": "ciao mondo!"
+  }
+}
