@@ -6,7 +6,7 @@ Required:
 - Import jtranslate.js file from this repo
 - Import translation.json file from this repo
 
-HTML setup
+## HTML setup
 On every Element that has a translated text add `data-translate` attribute and give it a value. Don't put text in your HTML.
 Add jQuery in you head and jtranslate.js file.
 ```
@@ -28,7 +28,7 @@ Add jQuery in you head and jtranslate.js file.
     </body>
  <html>
   ```
-jtranslate.js
+## jtranslate.js
 Make sure you get the correct path for you translation.json in the get method file AND to setup a default language.
 The rest is handled automatically.
 ```
@@ -50,7 +50,7 @@ $(document).ready(() => {
 })
 ```
 
-translation.json
+## translation.json
 In this file you only have to set the supported browser languages in the `languages` key e.g. `["en", "nl", "it"]`.
 So this file has three language translations: English, Ducth and Italian.
 ```
