@@ -2,9 +2,9 @@
 Very simple translation file, jQuery based. Detects browser language.
 
 Required:
-Import jQuery
-Import jtranslate.js file from this repo
-Import translation.json file from this repo
+- Import jQuery
+- Import jtranslate.js file from this repo
+- Import translation.json file from this repo
 
 HTML setup
 On every Element that has a translated text add `data-translate` attribute and give it a value. Don't put text in your HTML.
