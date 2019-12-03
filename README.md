@@ -34,7 +34,7 @@ The rest is handled automatically.
 ```
 $(document).ready(() => {
   $.get('/translation.json', (translationData) => {
-    let detectedLanguage = window.navigator.userLanguage || window.navigator.language;
+    let detectedLanguage = (window.navigator.userLanguage || window.navigator.language).split('-')[0];
     // Fallback for languages that are not defined by your translation.json
     
     let defaultLanguage = 'en'; //This has TO BE SET BY YOU! 
